@@ -66,8 +66,8 @@ a {
 }
 
 .logo {
-  width: 64px;
-  height: 64px;
+  width: 56px;
+  height: 56px;
   border-radius: 14px;
   overflow: hidden;
   flex-shrink: 0;
