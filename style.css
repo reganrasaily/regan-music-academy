@@ -489,3 +489,62 @@ footer {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* Admission registration form */
+.admission-form {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 28px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.admission-form h3 {
+  font-family: "Playfair Display", Georgia, serif;
+  margin-bottom: 12px;
+}
+
+.admission-form form p {
+  margin: 18px 0;
+}
+
+.admission-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.admission-form input,
+.admission-form select {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px;
+  font: inherit;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: white;
+}
+
+.fee-panel {
+  background: var(--paper);
+  padding: 20px;
+  margin: 24px 0;
+  border-left: 3px solid var(--accent);
+}
+
+.fee-panel .btn {
+  margin-top: 12px;
+}
+
+.admission-form button {
+  border: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .admission-form {
+    padding: 18px;
+  }
+}
