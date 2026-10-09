@@ -164,8 +164,83 @@
     </button>
   </form>
 </section>
+<section id="admission" class="section">
+  <div class="section-heading">
+    <p class="eyebrow">ADMISSIONS</p>
+    <h2>Register for Music Classes</h2>
+    <p>Complete the form and pay the one-time registration fee of ₹2,000. Monthly tuition fees are separate.</p>
+  </div>
 
-<section id="contact" class="section contact">
+  <div class="admission-form">
+    <h3>Student Registration</h3>
+
+    <form id="admission-form">
+      <p>
+        <label for="adm-student">Student's Full Name</label>
+        <input id="adm-student" type="text" required>
+      </p>
+
+      <p>
+        <label for="adm-dob">Date of Birth</label>
+        <input id="adm-dob" type="date" required>
+      </p>
+
+      <p>
+        <label for="adm-parent">Parent/Guardian Name</label>
+        <input id="adm-parent" type="text" required>
+      </p>
+
+      <p>
+        <label for="adm-phone">Contact Number</label>
+        <input id="adm-phone" type="tel" pattern="[0-9]{10}" maxlength="10" required>
+      </p>
+
+      <p>
+        <label for="adm-instrument">Choose Instrument</label>
+        <select id="adm-instrument" required>
+          <option value="">Select an instrument</option>
+          <option>Guitar</option>
+          <option>Keyboard</option>
+          <option>Violin</option>
+          <option>Drums</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="adm-mode">Class Type</label>
+        <select id="adm-mode" required>
+          <option value="">Select class type</option>
+          <option>Offline</option>
+          <option>Online</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="adm-timing">Preferred Class Timing</label>
+        <input id="adm-timing" type="text" placeholder="e.g. Weekday evening" required>
+      </p>
+
+      <div class="fee-panel">
+        <h3>Registration Fee: ₹2,000</h3>
+        <p>One-time registration fee only. Monthly tuition is charged separately.</p>
+        <a class="btn primary"
+           href="upi://pay?pa=9564234578%40ybl&amp;pn=Regan%20Music%20Academy&amp;am=2000.00&amp;cu=INR&amp;tn=Academy%20Registration">
+          Pay ₹2,000 by UPI
+        </a>
+        <p>After paying, enter your UPI transaction reference below.</p>
+      </div>
+
+      <p>
+        <label for="adm-utr">UPI Transaction Reference (UTR)</label>
+        <input id="adm-utr" type="text" required>
+      </p>
+
+      <button class="btn primary" type="submit">
+        Submit Registration on WhatsApp
+      </button>
+    </form>
+  </div>
+</section>
   <div class="section-heading">
     <p class="eyebrow">CONTACT</p>
     <h2>Let's make music together.</h2>
