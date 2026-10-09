@@ -114,8 +114,57 @@
       <a class="btn primary" href="#contact">Contact the Academy</a>
     </section>
 
-    <section id="contact" class="section contact">
-      <div class="section-heading">
+    <section id="enquiry" class="section">
+  <div class="section-heading">
+    <p class="eyebrow">STUDENT ENQUIRY</p>
+    <h2>Start your musical journey.</h2>
+    <p>Fill in the details and contact us to enquire about classes.</p>
+  </div>
+
+  <form id="enquiry-form">
+    <p>
+      <label for="student-name">Student's Name</label><br>
+      <input id="student-name" name="studentName" type="text" required>
+    </p>
+
+    <p>
+      <label for="student-age">Student's Age</label><br>
+      <input id="student-age" name="studentAge" type="number" min="3" required>
+    </p>
+
+    <p>
+      <label for="parent-name">Parent's Name</label><br>
+      <input id="parent-name" name="parentName" type="text" required>
+    </p>
+
+    <p>
+      <label for="phone">Contact Number</label><br>
+      <input id="phone" name="phone" type="tel" required>
+    </p>
+
+    <p>
+      <label for="instrument">Choose an Instrument</label><br>
+      <select id="instrument" name="instrument" required>
+        <option value="">Select an instrument</option>
+        <option>Guitar</option>
+        <option>Keyboard</option>
+        <option>Violin</option>
+        <option>Drums</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="timing">Preferred Class Timing</label><br>
+      <input id="timing" name="timing" type="text"
+        placeholder="e.g. Weekday evening or Sunday morning" required>
+    </p>
+
+    <button class="btn primary" type="submit">
+      Send Enquiry on WhatsApp
+    </button>
+  </form>
+</section>
+ <section id="contact" class="section contact">
         <p class="eyebrow">CONTACT</p>
         <h2>Book a trial or ask a question.</h2>
       </div>
