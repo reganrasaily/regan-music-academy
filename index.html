@@ -271,7 +271,69 @@
     </div>
   </div>
 </section>
+<section id="trial" class="section">
+  <div class="section-heading">
+    <p class="eyebrow">TRIAL LESSON</p>
+    <h2>Experience Your First Music Class</h2>
+    <p>Try a 30-minute lesson with Regan Music Academy before joining regular classes.</p>
+  </div>
 
+  <div class="admission-form">
+    <h3>Book a Trial Class</h3>
+    <p><strong>Trial fee: ₹500 for 30 minutes</strong></p>
+
+    <form id="trial-form">
+      <p>
+        <label for="trial-student">Student's Full Name</label>
+        <input id="trial-student" type="text" required>
+      </p>
+
+      <p>
+        <label for="trial-parent">Parent/Guardian Name</label>
+        <input id="trial-parent" type="text" required>
+      </p>
+
+      <p>
+        <label for="trial-phone">Contact Number</label>
+        <input id="trial-phone" type="tel" pattern="[0-9]{10}" maxlength="10" required>
+      </p>
+
+      <p>
+        <label for="trial-instrument">Choose Instrument</label>
+        <select id="trial-instrument" required>
+          <option value="">Select an instrument</option>
+          <option>Guitar</option>
+          <option>Keyboard</option>
+          <option>Violin</option>
+          <option>Drums</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="trial-mode">Trial Class Mode</label>
+        <select id="trial-mode" required>
+          <option value="">Choose a mode</option>
+          <option>Online via Zoom</option>
+          <option>Offline at the academy</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="trial-date">Preferred Date</label>
+        <input id="trial-date" type="date" required>
+      </p>
+
+      <p>
+        <label for="trial-time">Preferred Time</label>
+        <input id="trial-time" type="text" placeholder="e.g. Saturday, 4 PM" required>
+      </p>
+
+      <button class="btn primary" type="submit">
+        Request Trial on WhatsApp
+      </button>
+    </form>
+  </div>
+      </section>
         <section id="contact" class="section contact">
   <div class="section-heading">
     <p class="eyebrow">CONTACT</p>
